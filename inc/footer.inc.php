@@ -37,11 +37,11 @@ if (is_object($db)) {
 ?>
 </div> <!-- /content -->
 <div class="footer">
-    <a href="http://www.poweradmin.org/">a complete(r) <strong>poweradmin</strong><?php
+    <a href="http://www.phpmyzone.org/"><strong>phpMyZone</strong><?php
         if (isset($_SESSION["userid"])) {
             echo " v $VERSION";
         }
-        ?></a> - <a href="http://www.poweradmin.org/credits.html">credits</a>
+        ?></a>
 </div>
 <?php
 if (file_exists('inc/custom_footer.inc.php')) {
